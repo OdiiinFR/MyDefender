@@ -121,6 +121,7 @@ fclean: clean
 	rm -f *.gcno
 	rm -f *.gcda
 	rm -f unit_tests
+	rm -f tests/tests.o
 
 tests_run:	clean
 			gcc -o unit_tests $(SRC_TESTS) -Iincludes --coverage -lcriterion
