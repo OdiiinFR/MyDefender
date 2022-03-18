@@ -90,6 +90,14 @@ SRC	=	sources/main/main.c	\
 		sources/defender/tower/find_top.c	\
 		sources/defender/waves/file.c	\
 
+SRC_TESTS	=	tests/tests.c	\
+			sources/my/my_putstr.c	\
+			sources/my/my_getnbr.c	\
+			sources/my/my_itoa.c	\
+			sources/defender/errors/usage.c	\
+
+OBJ_TESTS	=	$(SRC_TESTS:.c=.o)
+
 OBJ	=	$(SRC:.c=.o)
 
 CFLAGS	=	-Iincludes -lcsfml-system -lcsfml-audio -lm
@@ -110,5 +118,14 @@ fclean: clean
 	rm -f *'#'
 	rm -f $(NAME)
 	rm -f *vgcore.*
+	rm -f *.gcno
+	rm -f *.gcda
+	rm -f unit_tests
+
+tests_run:	clean
+			gcc -o unit_tests $(SRC_TESTS) -Iincludes --coverage -lcriterion
+			./unit_tests
+			gcovr --exclude test.c
+			fclean
 
 re:	fclean all
