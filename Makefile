@@ -91,10 +91,10 @@ SRC	=	sources/main/main.c	\
 		sources/defender/waves/file.c	\
 
 SRC_TESTS	=	tests/tests.c	\
-			sources/my/my_putstr.c	\
-			sources/my/my_getnbr.c	\
-			sources/my/my_itoa.c	\
-			sources/defender/errors/usage.c	\
+			tests/my_putstr.c	\
+			tests/my_getnbr.c	\
+			tests/my_itoa.c	\
+			tests/usage.c	\
 
 OBJ_TESTS	=	$(SRC_TESTS:.c=.o)
 
@@ -123,10 +123,9 @@ fclean: clean
 	rm -f unit_tests
 	rm -f tests/tests.o
 
-tests_run:	clean
+tests_run:	fclean
 			gcc -o unit_tests $(SRC_TESTS) -Iincludes --coverage -lcriterion
 			./unit_tests
 			gcovr --exclude test.c
-			fclean
 
 re:	fclean all
