@@ -18,7 +18,7 @@ Nos bouttons ont 3 états : normal, quand la souris est sur le bouton, quand l'o
 
 Le menu de paramètres : 
 
-- Vous pouvez choisir votre réssolution d'écran.
+- Vous pouvez choisir votre résolution d'écran.
 - Deux sliders pour paramétrer le son et les musiques.
 - Deux touches configurables pour le menu d'inventaire et d'achat en jeu.
 - Le choix de votre taux de rafraichissement.
