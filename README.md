@@ -44,9 +44,9 @@ Afin de povoir placer des tours, il faut au préalable les acheter dans le menu 
 Est aussi présent, deux arbres de compétences afin de pouvoir améliorer les tours ou de diminiuer les ennemis.
 L'achat de la partie basse ne peut se faire que si la partie haute est déja achetée.
 
-Les ennemis, apparaissement par vagues. Il existe 4 type d'ennemis différents avec des dammages différents.
+Les ennemis, apparaissent par vagues. Il existe 4 types d'ennemis différents avec des dommages différents.
 
-Afin de gagner, il vous suffit de tuer tout les ennemis.
+Afin de gagner, il vous suffit de tuer touts les ennemis.
 Si un ou plusieurs ennemis touchent votre base, ils vous infligeront des dégats jusqu'au moment où votre base sera détruite. Dès lors, vous perderez.
 
 ___________________________________________________________________________________________________________________________________________________________
