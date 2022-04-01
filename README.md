@@ -51,44 +51,47 @@ ________________________________________________________________________________
 
 EN : 
 
-Welcome on our repository of MyDefender's project !
+Welcome to our repository of the MyDefender project !
 
 The principle of the project was to recreate a "Tower Defence" game using the CSFML graphic library.
 
-We chose the theme of the war in Ukraine (before Russia entered their territory). But we stayed in a semi-fantasy universe.
+We were inspired by current world events (the war between Russia and Ukraine) while remaining in a semi-fantasy universe.
 
-When the game is launched, an animation is present with a button to pass.
+When the game is launched, an animation start and can be skipped.
 
-The game is composed of a main menu with buttons directing to the level choice, the scoreboard, the settings menu, and the exit button.
+The game is made of a main menu with buttons directing to the level choice, the scoreboard, the settings menu, and the exit button.
 
-Our buttons have 3 states: normal, when the mouse is on the button, when the button is clicked. (and when the button is already selected)
+Our buttons have 3 states: idle, hover, clicked.
 
-The settings menu:
+On the settings menu:
 
    - You can choose your screen resolution.
-   - Two sliders to set the sound and the music.
-   - Two configurable buttons for the inventory and in-game purchase menu.
-   - The choice of your refresh rate.
+   - There are two sliders to set the sound and the music.
+   - There are two configurable buttons for the inventory and in-game purchase menu.
+   - You can choose your refresh rate.
 
-All this with a back button or by pressing ESC to return to the main menu.
+You can also press the ESC key or Back button to return to the main menu.
 
-Scoreboard:
+On the scoreboard:
 
-Displaying the top 5 scores for each level.
+   - The top 5 scores are displayed for each level.
+   - Pressing the Back button or ESC key allows one to go back as well.
 
-Back button or ESC again to go back.
-
-The level selection menu consists of 4 buttons (1 per level), below each button is an icon representing the level.
+The level selection menu consists of 4 buttons (1 per level).
+Below each button is an icon representing the level.
 
 When a level is selected, the icon is circled in red and the button is in its selected state.
 
-There are 4 levels, the first one is called tutorial because it has few towers and the wave of enemies is simplified. The second and the third are an evolution of difficulties to allow the user to discover all the features. The last one is the final level with a very high difficulty with a final boss.
+There are 4 levels, the first one is called tutorial because it has few towers and the wave of enemies is simplified.
+The second and the third have an evolutive difficulty to allow the user to discover all of the features.
+The last one is the final level with a very high difficulty as well as a final boss.
 
 You must then click on the play button to start a game.
 
-In order to place towers, you must first buy them in the purchase menu. Then place them by drag and drop on the map at the displayed locations. A collision circle appears to inform you of the tower's area of effect. There are 4 types of towers with different speeds and damage. They all have 4 levels, to move from one level to another, just click on the tower when a green arrow icon appears.
+In order to place towers, you must first buy them in the purchase menu and then place them by dragging and dropping on the map at the displayed locations. A collision circle is displayed to inform you of the tower's area of effect. Of course, there are 4 types of towers with different speeds and power level. It is possible to upgrade them 3 times.
+To upgrade a tower, just click on the tower when a green arrow icon appears.
 
-There are also two skill trees to improve the towers or to reduce the enemies. The purchase of the lower part can only be done if the upper part is already purchased.
+There are also two skill trees to improve the towers or to reduce the number of enemies. The purchase of the lower tier can only be done if the upper tier is already purchased.
 
 Enemies appear in waves. There are 4 different types of enemies with different damage.
 
