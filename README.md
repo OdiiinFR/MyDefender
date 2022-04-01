@@ -18,10 +18,10 @@ Nos boutons ont 3 états : normal, quand la souris est sur le bouton, quand l'on
 
 Le menu de paramètres :
 
-    Vous pouvez choisir votre résolution d'écran.
-    Deux sliders pour paramétrer le son et les musiques.
-    Deux touches configurables pour le menu d'inventaire et d'achat en jeu.
-    Le choix de votre taux de rafraîchissement.
+   - Vous pouvez choisir votre résolution d'écran.
+   - Deux sliders pour paramétrer le son et les musiques.
+   - Deux touches configurables pour le menu d'inventaire et d'achat en jeu.
+   - Le choix de votre taux de rafraîchissement.
 
 Le tout avec un bouton de retour ou en appuyant sur ECHAP pour revenir au menu principal
 
@@ -65,10 +65,10 @@ Our buttons have 3 states: normal, when the mouse is on the button, when the but
 
 The settings menu:
 
-    You can choose your screen resolution.
-    Two sliders to set the sound and the music.
-    Two configurable buttons for the inventory and in-game purchase menu.
-    The choice of your refresh rate.
+   - You can choose your screen resolution.
+   - Two sliders to set the sound and the music.
+   - Two configurable buttons for the inventory and in-game purchase menu.
+   - The choice of your refresh rate.
 
 All this with a back button or by pressing ESC to return to the main menu.
 
